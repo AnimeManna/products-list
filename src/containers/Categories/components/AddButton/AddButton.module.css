@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  padding-right: 5px;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Circe Bold";
+}

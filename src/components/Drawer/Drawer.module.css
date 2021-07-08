@@ -1,0 +1,17 @@
+.container {
+  width: 65px;
+  height: 100%;
+  background-color: white;
+  transition: width 0.5s ease-in-out;
+  overflow: hidden;
+  text-align: right;
+  padding: 10px 0px;
+  box-shadow: 4px 0px 8px 3px rgba(34, 60, 80, 0.2);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.containerIsOpen {
+  width: 160px;
+}

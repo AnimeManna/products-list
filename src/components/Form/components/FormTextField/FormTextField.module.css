@@ -1,0 +1,49 @@
+.container {
+  height: 50px;
+  flex: 1;
+}
+
+.nameInput {
+  width: 100%;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.textField {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.input {
+  width: 90%;
+  height: 40px;
+  background: inherit;
+  border: none;
+}
+
+.input::-webkit-input-placeholder {
+  font-family: "Circe";
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.error {
+  border: 1px solid #c40000;
+}
+
+.required {
+  border: 1px solid #ede500;
+}
+
+.errorMessageContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+}

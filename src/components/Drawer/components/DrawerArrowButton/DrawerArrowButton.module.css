@@ -1,0 +1,10 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+}

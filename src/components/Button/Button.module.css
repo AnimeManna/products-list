@@ -1,0 +1,38 @@
+.container {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  background: inherit;
+  border: 2px solid #3de8ff;
+  border-radius: 6px;
+  font-family: "Circe Light";
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.container:hover {
+  background-color: #3d98ff;
+  border-color: #3d98ff;
+}
+
+.container:active {
+  background-color: #3dc5ff;
+  border-color: #3dc5ff;
+}
+
+.primary {
+  background-color: #3de8ff;
+  color: white;
+}
+
+.container:disabled {
+  background-color: #9c9c9c;
+  border-color: #9c9c9c;
+  color: #7a7a7a;
+}
+
+.container:focus {
+  outline: none;
+}
